@@ -25,6 +25,10 @@ h2 {
   font-size: 64px;
 }
 
+h4 {
+  font-size: 32px;
+}
+
 p {
   font-weight: 400;
   font-size: 20px;
@@ -70,7 +74,7 @@ p {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 160px 20px 60px;
 }
 
 .content h1 {
@@ -145,6 +149,18 @@ p {
   margin: 40px 0;
 }
 
+.contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  font-size: 12px;
+}
+
+.contact-box h4,
+.contact-box p {
+  margin: 0;
+  padding: 0;
+}
+
 footer p {
   font-size: 18px;
 }
@@ -157,13 +173,13 @@ footer a {
 footer .email-link {
   font-size: 24px;
   background: white;
+  transition: all 250ms ease-in-out;
 }
 
 footer .email-link:hover {
   color: var(--branding-color);
   background: var(--secondary-color);
   font-size: 26px;
-  transition: all 250ms ease-in-out;
 }
 
 footer .footer-item {
@@ -172,13 +188,13 @@ footer .footer-item {
   color: var(--font-color);
   background: white;
   border-radius: 50%;
+  transition: all 250ms ease-in-out;
 }
 
 footer .footer-item:hover {
   background: var(--branding-color);
   color: white;
   font-size: 26px;
-  transition: all 250ms ease-in-out;
 }
 
 nav {
@@ -195,11 +211,13 @@ nav li {
   list-style: none;
   line-height: 32px;
   margin-left: 15px;
+  opacity: 0.8;
 }
 
 nav a {
   text-decoration: none;
   color: var(--font-color);
+  transition: all 100ms ease-in-out;
 }
 
 nav a:hover {
@@ -223,6 +241,10 @@ nav li.active a {
 
   h2 {
     font-size: 42px;
+  }
+
+  h4 {
+    font-size: 26px;
   }
 
   .hero {
@@ -249,5 +271,9 @@ nav li.active a {
 
   nav a {
     font-size: 13px;
+  }
+
+  .contact-box {
+    padding: 30px;
   }
 }
