@@ -34,51 +34,73 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <div class="container">
-      <nav class="d-flex justify-content-between fixed-top navbar-color">
-        <div>
-          <a href="./" title="Homepage" class="d-none d-md-block fs-5">
-            <img
-              src="https://emojiguide.org/images/emoji/p/106js2rnio8jp.png"
-              alt="Ukrainian flag"
-              class="img-flag"
-            />
-            Olesya Kuhar</a
-          >
-          <a href="./" title="Homepage" class="d-block d-md-none">
-            <img
-              src="https://emojiguide.org/images/emoji/p/106js2rnio8jp.png"
-              alt="Ukrainian flag"
-              class="img-flag"
-          /></a>
+    <nav class="navbar navbar-expand-lg fixed-top mx-1 navbar-color">
+      <div class="container">
+        <a class="navbar-brand" href="./" title="Homepage">
+          <img
+            src="https://emojiguide.org/images/emoji/p/106js2rnio8jp.png"
+            alt="Ukrainian flag"
+            class="img-flag"
+          />
+          Olesya Kuhar</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./" title="Homepage"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./work.html" title="Olesya's portfolio"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                style="color: var(--branding-color)"
+                href="./about.html"
+                title="About Olesya Kuhar"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="./contact.html"
+                title="Contact Olesya Kuhar"
+                >Contact</a
+              >
+            </li>
+          </ul>
         </div>
-
-        <ul>
-          <li><a href="./" title="Homepage">Home </a></li>
-          <li>
-            <a href="./work.html" title="Olesya's portfolio">Portfolio</a>
-          </li>
-          <li class="active">
-            <a href="./about.html" title="About Olesya Kuhar">About</a>
-          </li>
-          <li>
-            <a href="./contact.html" title="Contact Olesya Kuhar">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+      </div>
+    </nav>
 
     <div class="container content-container">
       <div class="row">
         <div class="col-lg-6">
           <div class="content">
-            <h1 class="mb-4">Olesya Kuhar</h1>
-            <h2 class="mb-4">Front-end developer based in Ukraine</h2>
-            <p class="mb-4">
-              For anyone who wants to start learning code, this workshop is very
-              interesting. You will be challenged with different exercises, and
-              everything is well explained, homework and deadlines are good for
-              keep focus
+            <h1 class="mb-3">Olesya Kuhar</h1>
+            <h2 class="mb-3">Front-end developer based in Ukraine</h2>
+            <p class="mb-3">
+              Learning how to code has always been my dream. Having experience
+              in document management, now I want to move into a career as a
+              technical specialist, so I continue to improve my programming
+              knowledge. I'm responsible, attentive to details and dedicated to
+              my work. I'm open to work remotely and have flexible hours.
             </p>
             <a
               href="./work.html"
@@ -92,14 +114,31 @@
           <img
             src="./images/my-photo.jpg"
             alt="Photo Olesya Kuhar"
-            width="370"
+            width="380"
             class="img-fluid rounded"
+          />
+        </div>
+      </div>
+      <div class="col-lg mt-4 content"><h2>My certificates</h2></div>
+      <div class="row">
+        <div class="col-lg">
+          <img
+            src="./images/certificate-ok-shecodes-basic.png"
+            alt="Certificate Olesya Kuhar SheCodes basic"
+            class="img-fluid rounded p-2 shadow"
+          />
+        </div>
+        <div class="col-lg">
+          <img
+            src="./images/certificate-ok-shecodes-front-end.png"
+            alt="Certificate Olesya Kuhar SheCodes basic"
+            class="img-fluid rounded p-2 shadow"
           />
         </div>
       </div>
     </div>
 
-    <div class="contact-box justify-content-between mt-2 d-none d-md-flex">
+    <div class="contact-box justify-content-between mt-4 d-none d-md-flex">
       <div class="mt-2">
         <h3>Work Inquiry</h3>
       </div>

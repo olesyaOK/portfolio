@@ -35,6 +35,42 @@ p {
   line-height: 30px;
 }
 
+footer p {
+  font-size: 18px;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--font-color);
+}
+
+footer .email-link {
+  font-size: 24px;
+  background: white;
+  transition: all 250ms ease-in-out;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  font-size: 26px;
+}
+
+footer .footer-item {
+  margin: 10px 20px;
+  padding: 10px;
+  color: var(--font-color);
+  background: white;
+  border-radius: 50%;
+  transition: all 250ms ease-in-out;
+}
+
+footer .footer-item:hover {
+  background: var(--branding-color);
+  color: white;
+  font-size: 26px;
+}
+
 .navbar-color {
   background: var(--secondary-color);
   border: 1px solid var(--branding-color);
@@ -44,6 +80,10 @@ p {
 .nav-link:hover {
   color: var(--branding-color);
   font-weight: 500;
+}
+
+.nav-item {
+  padding: 0 2px;
 }
 
 .img-flag {
@@ -74,7 +114,7 @@ p {
 }
 
 .content-container {
-  padding: 60px 20px;
+  padding: 100px 20px 0;
 }
 
 .content h1 {
@@ -141,14 +181,6 @@ p {
   padding: 50px 30px;
 }
 
-.footer-box {
-  font-size: 25px;
-  background: var(--secondary-color);
-  text-align: center;
-  padding: 20px 0;
-  margin: 40px 0;
-}
-
 .contact-box {
   background: var(--secondary-color);
   padding: 30px 120px;
@@ -161,76 +193,12 @@ p {
   padding: 0;
 }
 
-footer p {
-  font-size: 18px;
-}
-
-footer a {
-  text-decoration: none;
-  color: var(--font-color);
-}
-
-footer .email-link {
-  font-size: 24px;
-  background: white;
-  transition: all 250ms ease-in-out;
-}
-
-footer .email-link:hover {
-  color: var(--branding-color);
+.footer-box {
+  font-size: 25px;
   background: var(--secondary-color);
-  font-size: 26px;
-}
-
-footer .footer-item {
-  margin: 10px 20px;
-  padding: 10px;
-  color: var(--font-color);
-  background: white;
-  border-radius: 50%;
-  transition: all 250ms ease-in-out;
-}
-
-footer .footer-item:hover {
-  background: var(--branding-color);
-  color: white;
-  font-size: 26px;
-}
-
-nav {
+  text-align: center;
   padding: 20px 0;
-}
-
-nav ul {
-  padding: 0;
-  margin: 0;
-}
-
-nav li {
-  display: inline;
-  list-style: none;
-  line-height: 32px;
-  margin-left: 15px;
-  opacity: 0.8;
-}
-
-nav a {
-  text-decoration: none;
-  color: var(--font-color);
-  transition: all 100ms ease-in-out;
-}
-
-nav a:hover {
-  color: var(--font-color);
-}
-
-nav ul a:hover {
-  color: var(--branding-color);
-  font-weight: 500;
-}
-
-nav li.active a {
-  color: var(--branding-color);
+  margin: 40px 0;
 }
 
 @media (max-width: 960px) {
@@ -257,7 +225,12 @@ nav li.active a {
 
   .content-container {
     text-align: center;
-    padding: 0;
+    padding: 60px 20px 0;
+  }
+
+  .content h1 {
+    font-size: 32px;
+    line-height: 40px;
   }
 
   .project-descriprion {
@@ -267,10 +240,6 @@ nav li.active a {
 
   .btn-branding {
     margin: 7px 10px;
-  }
-
-  nav a {
-    font-size: 13px;
   }
 
   .contact-box {
