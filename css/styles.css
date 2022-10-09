@@ -25,7 +25,7 @@ h2 {
   font-size: 64px;
 }
 
-h4 {
+h3 {
   font-size: 32px;
 }
 
@@ -55,7 +55,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 
 .hero p {
@@ -74,7 +74,7 @@ p {
 }
 
 .content-container {
-  padding: 160px 20px 60px;
+  padding: 60px 20px;
 }
 
 .content h1 {
@@ -155,7 +155,7 @@ p {
   font-size: 12px;
 }
 
-.contact-box h4,
+.contact-box h3,
 .contact-box p {
   margin: 0;
   padding: 0;
@@ -243,7 +243,7 @@ nav li.active a {
     font-size: 42px;
   }
 
-  h4 {
+  h3 {
     font-size: 26px;
   }
 

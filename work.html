@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Olesya Kuhar is a front-end developer, based in Ukraine. Price, speed and quality in an excellent ratio. Check out the portfolio and contact me for details."
+      content="Check out Olesya's portfolio. Olesya Kuhar is a front-end developer, based in Ukraine. Price, speed and quality in an excellent ratio. Check out the portfolio and contact me for details."
     />
-    <title>Front-end developer - Olesya Kuhar</title>
+    <title>Portfolio front-end developer - Olesya Kuhar</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -34,6 +34,40 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <div>
+          <a href="./" title="Homepage" class="d-none d-md-block fs-5">
+            <img
+              src="https://emojiguide.org/images/emoji/p/106js2rnio8jp.png"
+              alt="Ukrainian flag"
+              class="img-flag"
+            />
+            Olesya Kuhar</a
+          >
+          <a href="./" title="Homepage" class="d-block d-md-none">
+            <img
+              src="https://emojiguide.org/images/emoji/p/106js2rnio8jp.png"
+              alt="Ukrainian flag"
+              class="img-flag"
+          /></a>
+        </div>
+
+        <ul>
+          <li><a href="./" title="Homepage">Home</a></li>
+          <li class="active">
+            <a href="./work.html" title="Olesya's portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a href="./about.html" title="About Olesya Kuhar">About</a>
+          </li>
+          <li>
+            <a href="./contact.html" title="Contact Olesya Kuhar">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
     <div class="container content-container">
       <div class="content">
         <h1 class="mb-5">Take a look at what I've been working on!</h1>
@@ -43,8 +77,15 @@
               src="./images/fake-resume-1.png"
               class="img-fluid mb-3 shadow"
               alt="Screenshot of the resume website"
+              id="example-resume"
             />
-            <h3 class="text-center m-0">Example resume</h3>
+            <a
+              href="https://mellow-kelpie-422d14.netlify.app"
+              target="_blank"
+              title="Resume website"
+              class="text-decoration-none text-dark"
+              ><h3 class="text-center m-0">Example resume</h3></a
+            >
             <p class="text-center text-muted">Built with HTML | CSS</p>
           </div>
           <div class="col-md-6 mb-4">
@@ -52,8 +93,15 @@
               src="./images/macrame-store-1.png"
               class="img-fluid mb-3 shadow"
               alt="Screenshot of the macrame store website"
+              id="macrame-store"
             />
-            <h3 class="text-center m-0">Macrame store</h3>
+            <a
+              href="https://relaxed-seahorse-d83f17.netlify.app"
+              class="text-decoration-none text-dark"
+              target="_blank"
+              title="Macrame store website"
+              ><h3 class="text-center m-0">Macrame store</h3></a
+            >
             <p class="text-center text-muted">
               Built with HTML | CSS | JavaScript
             </p>
@@ -63,8 +111,15 @@
               src="./images/weather-app.png"
               class="img-fluid mb-3 shadow"
               alt="Screenshot of the weather website"
+              id="weather-app"
             />
-            <h3 class="text-center m-0">Weather App</h3>
+            <a
+              href="https://scintillating-phoenix-a34568.netlify.app"
+              class="text-decoration-none text-dark"
+              target="_blank"
+              title="Weather website"
+              ><h3 class="text-center m-0">Weather App</h3></a
+            >
             <p class="text-center text-muted">
               Built with HTML | CSS | JavaScript | API
             </p>
@@ -83,5 +138,46 @@
         </div>
       </div>
     </div>
+
+    <footer class="footer-box shadow">
+      <p class="text-muted">
+        Let's work together and i'll help you by all my best
+      </p>
+      <a
+        href="mailto:kukharolesya@gmail.com"
+        class="email-link"
+        title="Contact me by email"
+        >kukharolesya@gmail.com</a
+      >
+      <div>
+        <a
+          href="https://github.com/olesyaOK?tab=repositories"
+          target="_blank"
+          title="Contact me on github"
+          ><i class="fa-brands fa-github footer-item"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/olesyakukhar/"
+          target="_blank"
+          title="Contact me on instagram"
+          ><i class="fa-brands fa-instagram footer-item"></i
+        ></a>
+        <a
+          href="https://t.me/okukhar"
+          target="_blank"
+          title="Contact me on telegram"
+          ><i class="fa-brands fa-telegram footer-item"></i
+        ></a>
+      </div>
+      <p class="text-muted mt-2">
+        Open-sourced on
+        <a
+          href="https://github.com/olesyaOK/portfolio"
+          target="_blank"
+          title="Coded on GitHub"
+          >GitHub</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
